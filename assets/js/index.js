@@ -50,7 +50,7 @@ function getUserInfo() {
 
 function renderAvatar(user) {
     //获取用户名称
-    var name = user.nikename || user.username
+    var name = user.nickname || user.username
 
     //设置欢迎文本
     $('#welcome').html('欢迎&nbsp;&nbsp' + name)
